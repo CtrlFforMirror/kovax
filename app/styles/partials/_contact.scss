@@ -16,7 +16,7 @@
 .input-area input,
 .message-area textarea {
   font-size: 20px;
-  border: 1px solid #999;
+  border: 1px solid $mid-gray;
   border-radius: 2px;
 }
 
@@ -42,6 +42,6 @@
   width: 100%;
   height: 50px;
   max-width: 400px;
-  color: #fff;
+  color: $white;
   cursor: pointer;
 }

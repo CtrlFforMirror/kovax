@@ -1,3 +1,5 @@
+@import '../../imports/colors';
+
 html,
 body {
   height: 100%;
@@ -7,8 +9,8 @@ body {
   padding: 0;
   margin: 0;
   font-family: 'Helvetica', sans-serif;
-  color: #444;
-  background: #F2F1ED;
+  color: $base-gray;
+  background: $base-gray-secondary;
 }
 
 input,
@@ -26,7 +28,6 @@ nav {
   font-family: 'Archivo Narrow', sans-serif;
   font-size: 110%;
   text-align: center;
-  background: #F2F1ED;
 }
 
 ul {
@@ -34,18 +35,18 @@ ul {
   padding-bottom: 20px;
   margin: 0;
   list-style: none;
-  background: #b3b3b3;
+  background: $base-gray-secondary;
 }
 
 a {
-  color: #F2F1ED;
+  color: $base-gray-secondary;
 }
 
 button {
   font-size: 15px;
-  color: #444;
+  color: $base-gray;
   text-transform: uppercase;
-  background-color: #DE5A51;
+  background-color: $base-red;
   border: 0;
 }
 
@@ -57,29 +58,29 @@ p {
   max-width: 70%;
   padding: 30px;
   margin: auto;
-  color: #444;
+  color: $base-gray;
 }
 
 footer {
   padding: 10px 0 20px;
   margin-top: 30px;
   text-align: center;
-  background: #999;
+  background: $mid-gray;
 }
 
 // unvisited link
 a:link {
-  color: #F2F1ED;
+  color: $base-gray-secondary;
 }
 
 // visited link
 a:visited {
-  color: #F2F1ED;
+  color: $base-gray-secondary;
 }
 
 // mouse over link
 a:hover {
-  color: #DE5A51;
+  color: $base-red;
 }
 
 .nav .nav-item {
@@ -95,7 +96,7 @@ a:hover {
 
 // selected link
 .nav .nav-item-active a {
-  color: #444;
+  color: $base-gray;
 }
 
 .kovaxtitle {
@@ -104,8 +105,8 @@ a:hover {
   font-family: 'Archivo Narrow', sans-serif;
   font-size: 40px;
   letter-spacing: 1px;
-  color: #444;
-  background: #999;
+  color: $base-gray;
+  background: $mid-gray;
 }
 
 .logo-link {

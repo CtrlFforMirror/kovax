@@ -6,22 +6,22 @@ table {
 }
 
 tr:nth-of-type(odd) {
-  background: #eee;
+  background: $light-gray;
 }
 
 th {
-  background: #333;
-  color: white;
-  font-weight: bold;
   padding: 2.5%;
   font-size: 18px;
+  font-weight: bold;
+  color: $white;
+  background: $dark-gray;
 }
 
 td,
 th {
   padding: 18px 7px;
   text-align: left;
-  border: 1px solid #ccc;
+  border: 1px solid $dark-gray;
 }
 
 @media only screen and (max-width: 670px),
@@ -48,7 +48,7 @@ th {
   }
 
   tr {
-    border: 1px solid #ccc;
+    border: 1px solid $dark-gray;
   }
 
   td {
@@ -56,7 +56,7 @@ th {
     position: relative;
     padding-left: 50%;
     border: 0;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid $light-gray;
   }
 
   td::before {
@@ -86,5 +86,5 @@ th {
 }
 
 .venue a {
-  color: #444;
+  color: $dark-gray;
 }
