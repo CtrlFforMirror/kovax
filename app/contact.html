@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="">
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact</title>
+
+  <!-- build:css styles/main.css -->
+  <link rel="stylesheet" href="styles/main.css">
+  <!-- endbuild -->
+
+</head>
+<body>
+
+  <header>
+    <a href="index.html" class="logo-link"><h1 class="kovaxtitle">Kovax</h1></a>
+    <nav>
+      <ul class="nav">
+        <li class="nav-item"><a href="index.html">Welcome</a></li>
+        <li class="nav-item"><a href="about.html">About</a></li>
+        <li class="nav-item nav-item-active"><a href="contact.html">Contact</a></li>
+        <li class="nav-item"><a href="dates.html">Tour Dates</a></li>
+        <li class="nav-item"><a href="music.html">Music</a></li>
+        <li class="nav-item"><a href="shop.html">Shop</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <p class="form-welcome">
+      Want to book us for a gig, give us feedback or simply say hi? Fill out the form below and we'll get back to you as soon as possible!
+    </p>
+    <form class="contact-form">
+      <div class="contact-form-section input-area">
+        <label class="input-label" for="name">Name:*</label>
+        <input placeholder="Name" type="text" id="name" />
+      </div>
+      <div class="contact-form-section input-area">
+        <label class="input-label" for="mail">E-mail:*</label>
+        <input placeholder="Email" type="email" id="mail" />
+      </div>
+      <div class="contact-form-section message-area">
+        <label class="input-label" for="msg">Message:*</label>
+        <textarea placeholder="Your message" id="msg" class="text-box"></textarea>
+      </div>
+      <div class="contact-form-section send-button">
+        <button type="submit">Send Your Message</button>
+      </div>
+    </form>
+  </main>
+  <footer>
+    <a href="https://twitter.com/kovaxtheband"><img src="images/twitter.png" alt="Instagram Logo" class="social-icon"/></a>
+    <a href="http://www.facebook.com/kovaxtheband"><img src="images/facebook.png" alt="Facebook Logo" class="social-icon"/></a>
+    <p>
+      &copy; Kovax 2016
+    </p>
+  </footer>
+
+  <!-- build:js scripts/vendor.js -->
+  <!-- bower:js -->
+  <script src="/bower_components/jquery/dist/jquery.js"></script>
+  <!-- endbower -->
+  <!-- endbuild -->
+
+  <!-- build:js scripts/main.js -->
+  <script src="scripts/main.js"></script>
+  <!-- endbuild -->
+</body>
+</html>

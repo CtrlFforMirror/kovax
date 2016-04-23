@@ -1,0 +1,113 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Helvetica', sans-serif;
+  color: #444;
+  background: #F2F1ED;
+}
+
+input,
+textarea {
+  box-sizing: border-box;
+}
+
+h1 {
+  padding: 10px 0;
+  margin: 0;
+  text-align: center;
+}
+
+nav {
+  font-family: 'Archivo Narrow', sans-serif;
+  font-size: 110%;
+  text-align: center;
+  background: #F2F1ED;
+}
+
+ul {
+  padding-top: 15px;
+  padding-bottom: 20px;
+  margin: 0;
+  list-style: none;
+  background: #b3b3b3;
+}
+
+a {
+  color: #F2F1ED;
+}
+
+button {
+  font-size: 15px;
+  color: #444;
+  text-transform: uppercase;
+  background-color: #DE5A51;
+  border: 0;
+}
+
+main {
+  padding: 80px 30px 70px;
+}
+
+p {
+  max-width: 70%;
+  padding: 30px;
+  margin: auto;
+  color: #444;
+}
+
+footer {
+  padding: 10px 0 20px;
+  margin-top: 30px;
+  text-align: center;
+  background: #999;
+}
+
+// unvisited link
+a:link {
+  color: #F2F1ED;
+}
+
+// visited link
+a:visited {
+  color: #F2F1ED;
+}
+
+// mouse over link
+a:hover {
+  color: #DE5A51;
+}
+
+.nav .nav-item {
+  display: inline-block;
+  margin-right: 20px;
+  text-transform: uppercase;
+
+  a {
+    text-decoration: none;
+  }
+}
+
+
+// selected link
+.nav .nav-item-active a {
+  color: #444;
+}
+
+.kovaxtitle {
+  width: 100%;
+  padding: 15px 0;
+  font-family: 'Archivo Narrow', sans-serif;
+  font-size: 40px;
+  letter-spacing: 1px;
+  color: #444;
+  background: #999;
+}
+
+.logo-link {
+  text-decoration: none;
+}
