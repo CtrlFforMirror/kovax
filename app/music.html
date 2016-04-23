@@ -15,7 +15,7 @@
 
   <header>
     <a href="index.html" class="logo-link"><h1 class="kovaxtitle">Kovax</h1></a>
-    <nav>
+    <nav class="main-nav-container">
       <ul class="nav">
         <li class="nav-item"><a href="index.html">Welcome</a></li>
         <li class="nav-item"><a href="about.html">About</a></li>
@@ -25,6 +25,11 @@
         <li class="nav-item"><a href="shop.html">Shop</a></li>
       </ul>
     </nav>
+
+    <button type="button" name="button" class="mobile-nav-button mobile-nav-button--open">
+      <svg height="32" viewBox="0 0 32 32" width="32" xmlns="http://www.w3.org/2000/svg"><path class="lines" d="M4 10h24c1.104 0 2-.896 2-2s-.896-2-2-2H4c-1.104 0-2 .896-2 2s.896 2 2 2zm24 4H4c-1.104 0-2 .896-2 2s.896 2 2 2h24c1.104 0 2-.896 2-2s-.896-2-2-2zm0 8H4c-1.104 0-2 .896-2 2s.896 2 2 2h24c1.104 0 2-.896 2-2s-.896-2-2-2z"/></svg>
+    </button>
+
   </header>
   <main>
     <p>
@@ -41,6 +46,21 @@
       &copy; Kovax 2016
     </p>
   </footer>
+
+  <nav class="mobile-nav-container">
+    <button type="button" name="button" class="mobile-nav-button mobile-nav-button--close">
+      cCLOSOOSOOE
+    </button>
+
+    <ul class="nav">
+      <li class="nav-item"><a href="index.html">Welcome</a></li>
+      <li class="nav-item"><a href="about.html">About</a></li>
+      <li class="nav-item"><a href="contact.html">Contact</a></li>
+      <li class="nav-item"><a href="dates.html">Tour Dates</a></li>
+      <li class="nav-item nav-item-active"><a href="music.html">Music</a></li>
+      <li class="nav-item"><a href="shop.html">Shop</a></li>
+    </ul>
+  </nav>
 
   <!-- build:js scripts/vendor.js -->
   <!-- bower:js -->

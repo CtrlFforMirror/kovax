@@ -8,7 +8,7 @@ body {
   margin: 0;
   font-family: 'Helvetica', sans-serif;
   color: $base-gray;
-  background: $base-gray-secondary;
+  background: $background-off-white;
 }
 
 input,
@@ -20,24 +20,6 @@ h1 {
   padding: 10px 0;
   margin: 0;
   text-align: center;
-}
-
-nav {
-  font-family: 'Archivo Narrow', sans-serif;
-  font-size: 110%;
-  text-align: center;
-}
-
-ul {
-  padding-top: 15px;
-  padding-bottom: 20px;
-  margin: 0;
-  list-style: none;
-  background: $base-gray-secondary;
-}
-
-a {
-  color: $base-gray-secondary;
 }
 
 button {
@@ -64,37 +46,6 @@ footer {
   margin-top: 30px;
   text-align: center;
   background: $mid-gray;
-}
-
-// unvisited link
-a:link {
-  color: $base-gray-secondary;
-}
-
-// visited link
-a:visited {
-  color: $base-gray-secondary;
-}
-
-// mouse over link
-a:hover {
-  color: $base-red;
-}
-
-.nav .nav-item {
-  display: inline-block;
-  margin-right: 20px;
-  text-transform: uppercase;
-
-  a {
-    text-decoration: none;
-  }
-}
-
-
-// selected link
-.nav .nav-item-active a {
-  color: $base-gray;
 }
 
 .kovaxtitle {
