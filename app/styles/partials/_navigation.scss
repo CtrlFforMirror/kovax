@@ -43,9 +43,29 @@
   display: none;
   width: 100%;
   height: 100%;
-  background: red;
+  text-align: center;
+  text-transform: uppercase;
+  background: $base-gray-secondary;
 
+  .nav {
+    list-style: none;
+  }
+
+  .nav-item {
+    padding: 10px;
+  }
+
+  .nav-item a:hover {
+    color: $base-red;
+  }
+
+
+  a {
+    color: $base-gray;
+    text-decoration: none;
+  }
 }
+
 
 .mobile-nav-button {
   position: absolute;
@@ -66,6 +86,6 @@
   }
 
   &--close {
-    background: blue;
+    background: $base-gray-secondary;
   }
 }
