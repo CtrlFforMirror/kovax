@@ -53,12 +53,11 @@
 
   .nav-item {
     padding: 10px;
-  }
 
-  .nav-item a:hover {
-    color: $base-red;
+    a:hover {
+      color: $base-red;
+    }
   }
-
 
   a {
     color: $base-gray;
@@ -86,6 +85,7 @@
   }
 
   &--close {
+    font-size: 80%;
     background: $base-gray-secondary;
   }
 }
