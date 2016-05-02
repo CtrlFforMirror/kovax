@@ -37,19 +37,23 @@
 }
 
 .mobile-nav-container {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   display: none;
   width: 100%;
   height: 100%;
-  padding-top: 50%;
   font-size: 110%;
   text-align: center;
   text-transform: uppercase;
   background: $base-gray-secondary;
-  opacity: .9;
-  flex-direction: row;
+  opacity: .98;
+
+  &--open {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
   .nav {
     list-style: none;
@@ -86,10 +90,5 @@
     @media (min-width: 590px) {
       display: none;
     }
-  }
-
-  &--close {
-    font-size: 80%;
-    background: $base-gray-secondary;
   }
 }
