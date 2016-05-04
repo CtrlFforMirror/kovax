@@ -20,24 +20,44 @@
   border-radius: 2px;
 }
 
-.input-area input {
-  width: 100%;
-  height: 50px;
-  padding: 10px 10px 13px;
+textarea:focus,
+input:focus {
+  outline: none;
 }
 
-// .input-area input:invalid {
-//   border: 1px #f00;
-// }
-//
-// .input-area input:valid {
-//   border: 1px #008000;
-// }
 
-.message-area textarea {
-  width: 100%;
-  height: 200px;
-  padding: 10px;
+.input-area {
+
+  input {
+    width: 100%;
+    height: 50px;
+    padding: 10px 10px 13px;
+  }
+
+  input:focus:valid {
+    border: 2px solid $base-green;
+  }
+
+  input:focus:invalid {
+    border: 2px solid $base-red;
+  }
+}
+
+.message-area {
+
+  textarea {
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+  }
+
+  textarea:focus:valid {
+    border: 2px solid $base-green;
+  }
+
+  textarea:focus:invalid {
+    border: 2px solid $base-red;
+  }
 }
 
 .input-label {

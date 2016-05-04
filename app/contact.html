@@ -33,15 +33,15 @@
     <form class="contact-form">
       <div class="contact-form-section input-area">
         <label class="input-label" for="name">Name:*</label>
-        <input placeholder="Name" type="text" id="name" />
+        <input placeholder="Name" type="text" required="required" pattern="[a-zA-Z0-9\s]+" id="name" />
       </div>
       <div class="contact-form-section input-area">
         <label class="input-label" for="mail">E-mail:*</label>
-        <input placeholder="Email" type="email" id="mail" />
+        <input placeholder="Email" type="email" required="required" id="mail" />
       </div>
       <div class="contact-form-section message-area">
         <label class="input-label" for="msg">Message:*</label>
-        <textarea placeholder="Your message" id="msg" class="text-box"></textarea>
+        <textarea placeholder="Your message" id="msg" required="required" class="text-box"></textarea>
       </div>
       <div class="contact-form-section send-button">
         <button type="submit">Send Your Message</button>
