@@ -20,3 +20,20 @@ socialIcon.mouseenter(function(){
 socialIcon.mouseleave(function(){
   $(this).fadeTo(300, 1);
 });
+
+//Check if local modal ok button has previously been clicked
+if (localStorage.getItem('localStorageModalHidden') == 'true') {
+	$('.local-storage-modal').removeClass('local-storage-modal--visible');
+} else {
+	$('.local-storage-modal').addClass('local-storage-modal--visible');
+}
+
+//Hide modal on click of button
+$('.local-storage-ok-button').on('click', function() {
+	$('.local-storage-modal').removeClass('local-storage-modal--visible');
+	localStorage.setItem('localStorageModalHidden', true);
+});
+
+
+
+

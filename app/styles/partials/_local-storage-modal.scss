@@ -1,0 +1,29 @@
+.local-storage-modal {
+  position: fixed;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 25%;
+  background-color: $base-gray;
+  z-index: 99999;
+
+  .modal-text {
+    color: $white;
+    text-align: center;
+  }
+
+  .local-storage-ok-button {
+    margin-top: 20px;
+    padding: 5px 0;
+    width: 20%;
+    color: $white;
+  }
+
+  &--visible {
+    display: flex;
+  }
+}
