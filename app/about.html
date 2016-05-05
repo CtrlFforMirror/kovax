@@ -34,6 +34,11 @@
         <li class="nav-item"><a href="shop.html">Shop</a></li>
       </ul>
     </nav>
+    
+    <button type="button" name="button" class="mobile-nav-button mobile-nav-button--open">
+      <svg height="32" viewBox="0 0 32 32" width="32" xmlns="http://www.w3.org/2000/svg"><path class="lines" d="M4 10h24c1.104 0 2-.896 2-2s-.896-2-2-2H4c-1.104 0-2 .896-2 2s.896 2 2 2zm24 4H4c-1.104 0-2 .896-2 2s.896 2 2 2h24c1.104 0 2-.896 2-2s-.896-2-2-2zm0 8H4c-1.104 0-2 .896-2 2s.896 2 2 2h24c1.104 0 2-.896 2-2s-.896-2-2-2z"/></svg>
+    </button>
+
   </header>
   <main>
     <div>
@@ -65,6 +70,29 @@
       &copy; Kovax 2016
     </p>
   </footer>
+
+  <nav class="mobile-nav-container">
+    <button type="button" name="button" class="mobile-nav-button mobile-nav-button--close">
+      <svg height="35" width="35" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+        <path class="lines" d="M437.5 386.6L306.9 256l130.6-130.6c14.1-14.1 14.1-36.8 0-50.9-14.1-14.1-36.8-14.1-50.9 0L256 205.1 125.4 74.5c-14.1-14.1-36.8-14.1-50.9 0-14.1 14.1-14.1 36.8 0 50.9L205.1 256 74.5 386.6c-14.1 14.1-14.1 36.8 0 50.9 14.1 14.1 36.8 14.1 50.9 0L256 306.9l130.6 130.6c14.1 14.1 36.8 14.1 50.9 0 14-14.1 14-36.9 0-50.9z"/>
+      </svg>
+    </button>
+
+    <ul class="nav">
+      <li class="nav-item"><a href="index.html">Welcome</a></li>
+      <li class="nav-item"><a href="about.html">About</a></li>
+      <li class="nav-item"><a href="contact.html">Contact</a></li>
+      <li class="nav-item"><a href="dates.html">Tour Dates</a></li>
+      <li class="nav-item nav-item-active"><a href="music.html">Music</a></li>
+      <li class="nav-item"><a href="shop.html">Shop</a></li>
+    </ul>
+  </nav>
+
+  <div class="local-storage-modal">
+    <h3 class="modal-text">This site uses LocalStorage to track user interaction. By clicking OK you accept this</h3>
+    <button class="local-storage-ok-button">OK</button>
+  </div>
+
   <!-- build:js scripts/vendor.js -->
   <!-- bower:js -->
   <script src="/bower_components/jquery/dist/jquery.js"></script>
