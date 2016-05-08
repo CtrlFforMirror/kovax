@@ -83,10 +83,6 @@
   cursor: pointer;
   background: none;
 
-  .lines {
-    fill: $base-gray;
-  }
-
   &--open {
     @media (min-width: 590px) {
       display: none;
