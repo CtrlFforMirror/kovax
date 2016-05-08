@@ -1,9 +1,20 @@
 .social-icon {
-  width: 30px;
-  height: 30px;
+  object-fit: none;
+  width: 41px;
+  height: 41px;
   padding-top: 20px;
   margin: 0;
   opacity: 1;
+
+  &--facebook {
+    object-position: 0 1px;
+  }
+
+  &--twitter {
+    object-position: -78px 1px;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
 }
 
 .social-icon:hover {
